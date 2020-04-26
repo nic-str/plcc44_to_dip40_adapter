@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name dip40_mod)(type KiCad)(uri ${KIPRJMOD}/dip40_mod.pretty)(options "")(descr ""))
+)
