@@ -14,47 +14,105 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x20_Male J1
-U 1 1 5EA4DB18
-P 3450 3250
-F 0 "J1" H 3558 4331 50  0000 C CNN
-F 1 "Conn_01x20_Male" H 3558 4240 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 3450 3250 50  0001 C CNN
-F 3 "~" H 3450 3250 50  0001 C CNN
-	1    3450 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x20_Male J2
-U 1 1 5EA4F830
-P 4650 3350
-F 0 "J2" H 4622 3232 50  0000 R CNN
-F 1 "Conn_01x20_Male" H 4622 3323 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 4650 3350 50  0001 C CNN
-F 3 "~" H 4650 3350 50  0001 C CNN
-	1    4650 3350
-	-1   0    0    1   
-$EndComp
-$Comp
-L MCU_Microchip_ATmega:ATmega8515-16JU U1
-U 1 1 5EA534F9
-P 6850 2700
-F 0 "U1" H 6850 4881 50  0000 C CNN
-F 1 "ATmega8515-16JU" H 6850 4790 50  0000 C CNN
-F 2 "Package_LCC:PLCC-44_THT-Socket" H 6850 2700 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2512.pdf" H 6850 2700 50  0001 C CNN
-	1    6850 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L MCU_Microchip_PIC16:PIC16F74-IP U2
 U 1 1 5EA593D0
-P 2250 5550
-F 0 "U2" H 2250 7131 50  0000 C CNN
-F 1 "PIC16F74-IP" H 2250 7040 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 2250 5550 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/30325b.pdf" H 2250 5550 50  0001 C CNN
-	1    2250 5550
+P 7850 3100
+F 0 "U2" H 7850 4681 50  0000 C CNN
+F 1 "PIC16F74-IP" H 7850 4590 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 7850 3100 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/30325b.pdf" H 7850 3100 50  0001 C CNN
+	1    7850 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2150 6950 2150
+Wire Wire Line
+	6950 2150 6950 2000
+Wire Wire Line
+	8750 2000 9000 2000
+Wire Wire Line
+	9000 2000 9000 1350
+Wire Wire Line
+	9000 1350 6050 1350
+Wire Wire Line
+	6050 1350 6050 2250
+Wire Wire Line
+	6050 2250 5600 2250
+Wire Wire Line
+	5600 2350 6200 2350
+Wire Wire Line
+	6200 2350 6200 1450
+Wire Wire Line
+	6200 1450 9150 1450
+Wire Wire Line
+	9150 1450 9150 2100
+Wire Wire Line
+	9150 2100 8750 2100
+Wire Wire Line
+	5600 2450 6250 2450
+Wire Wire Line
+	6250 2450 6250 1200
+Wire Wire Line
+	6250 1200 9250 1200
+Wire Wire Line
+	9250 1200 9250 2200
+Wire Wire Line
+	9250 2200 8750 2200
+Wire Wire Line
+	8750 2300 9300 2300
+Wire Wire Line
+	9300 2300 9300 1150
+Wire Wire Line
+	9300 1150 6300 1150
+Wire Wire Line
+	6300 1150 6300 2550
+Wire Wire Line
+	6300 2550 5600 2550
+Wire Wire Line
+	5600 2650 6350 2650
+Wire Wire Line
+	6350 2650 6350 1250
+Wire Wire Line
+	6350 1250 9350 1250
+Wire Wire Line
+	9350 1250 9350 2400
+Wire Wire Line
+	9350 2400 8750 2400
+Wire Wire Line
+	8750 2500 9400 2500
+Wire Wire Line
+	9400 2500 9400 1100
+Wire Wire Line
+	9400 1100 6400 1100
+Wire Wire Line
+	6400 1100 6400 2750
+Wire Wire Line
+	6400 2750 5600 2750
+Wire Wire Line
+	6950 3600 6700 3600
+Wire Wire Line
+	6700 3600 6700 2850
+Wire Wire Line
+	6700 2850 5600 2850
+Wire Wire Line
+	5950 600  5950 3700
+Wire Wire Line
+	5950 3700 6950 3700
+Wire Wire Line
+	6950 3800 6900 3800
+Wire Wire Line
+	6900 3800 6900 3950
+Wire Wire Line
+	6900 3950 5600 3950
+$Comp
+L plcc44_16bitrom:16bit_rom U?
+U 1 1 5EA76A43
+P 2850 3950
+F 0 "U?" H 2850 6131 50  0000 C CNN
+F 1 "16bit_rom" H 2850 6040 50  0000 C CNN
+F 2 "" H 2850 3950 50  0001 C CNN
+F 3 "" H 2850 3950 50  0001 C CNN
+	1    2850 3950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
