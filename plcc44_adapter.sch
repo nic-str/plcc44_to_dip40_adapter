@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "PLCC44 to DIP40 Adapter"
+Date "2020-05-06"
+Rev "1.0"
+Comp "Nicolas Striebig"
 Comment1 ""
 Comment2 ""
 Comment3 ""

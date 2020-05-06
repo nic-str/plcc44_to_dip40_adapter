@@ -10,6 +10,13 @@
   )
 
   (page A4)
+  (title_block
+    (title "PLCC44 to DIP40 Adapter")
+    (date 2020-05-06)
+    (rev 1.0)
+    (company "Nicolas Striebig")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -501,7 +508,6 @@
   (segment (start 168.9608 70.4088) (end 168.9608 62.7808) (width 0.25) (layer B.Cu) (net 6))
   (segment (start 166.4208 65.3208) (end 165.159001 64.059001) (width 0.25) (layer B.Cu) (net 7))
   (segment (start 166.4208 70.4088) (end 166.4208 65.3208) (width 0.25) (layer B.Cu) (net 7))
-  (segment (start 174.0408 60.257202) (end 180.399001 53.899001) (width 0.25) (layer B.Cu) (net 39))
   (segment (start 176.5808 62.797202) (end 176.5808 70.4088) (width 0.25) (layer B.Cu) (net 8))
   (segment (start 180.399001 58.979001) (end 176.5808 62.797202) (width 0.25) (layer B.Cu) (net 8))
   (segment (start 167.131999 72.237601) (end 166.4208 72.9488) (width 0.25) (layer F.Cu) (net 9))
@@ -594,6 +600,7 @@
   (segment (start 179.1208 80.5688) (end 179.129202 80.5688) (width 0.4) (layer F.Cu) (net 38))
   (segment (start 165.159001 79.290599) (end 166.4208 78.0288) (width 0.4) (layer F.Cu) (net 38))
   (segment (start 165.159001 79.299001) (end 165.159001 79.290599) (width 0.4) (layer F.Cu) (net 38))
+  (segment (start 174.0408 60.257202) (end 180.399001 53.899001) (width 0.25) (layer B.Cu) (net 39))
   (segment (start 174.1425 70.3071) (end 174.0408 70.4088) (width 0.25) (layer F.Cu) (net 39))
   (segment (start 174.0408 66.1417) (end 174.1425 66.04) (width 0.25) (layer F.Cu) (net 39))
   (segment (start 174.0408 70.4088) (end 174.0408 66.1417) (width 0.25) (layer F.Cu) (net 39))
